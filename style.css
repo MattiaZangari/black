@@ -1,0 +1,254 @@
+
+/* * settings general */ 
+*{
+    font-family: 'Jura', sans-serif;
+}
+
+h1{
+    font-family: 'Orbitron', sans-serif;
+       
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+
+    overflow-x: hidden;
+
+}
+
+
+
+/* root */
+:root{
+    --main:  #2b9df4;
+    
+}
+
+/* colore testi */
+
+.text-main{
+    color: var(--main);
+}
+
+
+/* background color */
+
+.bg-main{
+    background-color:var(--main);
+}
+
+
+
+/* navabar */
+
+.nav-link{
+    color: white;
+}
+
+.nav-custom{
+    border-bottom: solid 1px white;
+
+}
+
+.bg-custom-link-nav{
+
+    display: flex;
+    align-items: center ;
+}
+
+.logo-md{
+
+    align-self: flex-start;
+}
+
+@media screen and (max-width:700px){
+
+    .bg-custom-link-nav{
+
+        display: flex;
+        align-items: center ;
+        justify-content: center;
+    }
+
+    .logo-md{
+
+        align-self: center;
+
+
+
+    }
+}
+
+
+
+/* fine navbar */
+
+/* inizio header */
+header{
+
+   
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 35%, rgba(0,0,0,1) 100%), url(./media/moon.jpg);
+
+    background-position: center;
+
+    background-size: cover;
+
+    background-repeat: no-repeat;
+
+    height: 100vh;
+
+    align-items: center;
+
+    
+}
+
+/* fine header */
+
+
+/* inizio sezione 2 */
+
+.pbordercus{
+    width: 250px;
+    border-bottom: solid 1px var(--main);
+    position: relative;
+    z-index: -1;
+}
+/* Fine sezione 2 */
+
+
+/* inizio sezione 3*/
+
+
+
+.sec-3{
+
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    background-image: url(./media/moon2.jpg);
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+
+
+
+/* fine sezione 3 */
+
+/* inizio sezione 4 */
+
+.pbordercus2{
+    width: 100%;
+    border-bottom: solid 1px var(--main);
+}
+
+
+
+/* fine sezione 4 */
+/* sezione vuota */
+.sez-v3{
+    min-height: 25vh;
+}
+/* fine sezione vuota */
+
+/* inizio sezione 5 */
+
+.sez-1{
+    
+    height: 73vh;
+    display: flex;
+    align-items: start;
+
+    
+}
+
+/* sezioni vuote */
+.sez-v2{
+    min-height: 50vh;
+}
+.sez-v1{
+    min-height: 30vh;
+}
+
+/* sezione finale */
+
+.bg-custom{
+
+
+    filter: brightness(150%);
+    display: flex;
+   align-items: center;
+   border-bottom: 8px solid; border-image-source: radial-gradient(circle, rgb(18, 97, 156) 30%, rgba(1, 25, 90, 0) 60%);
+   border-image-slice: 10;
+
+}
+
+
+.go-button{
+
+    text-decoration: none;
+    color: white;
+
+}
+
+.go-button:hover{
+    
+    color: var(--main);
+
+}
+
+.corners {
+    color: var(--main);
+    position: relative;
+    width: 180px; 
+    padding: 5px;
+    
+  }
+  
+  .top, .bottom {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    
+  }
+  
+  .top {
+    top: 0;
+    border-top: 5px solid;
+    
+  }
+  
+  .bottom {
+    bottom: 0;
+    border-bottom: 5px solid;
+   
+  }
+  
+  .left {
+    left: 0;
+    border-left: 5px solid;
+    
+  }
+  
+  .right {
+    right: 0;
+    border-right: 5px solid;
+    
+  }
+  
+  .h3{
+    color: white;
+  } 
+  .sez-v4{
+    min-height: 50vh;
+}
+.sec-v5{
+
+    min-height: 30vh;
+}
+
+
+
+
